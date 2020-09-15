@@ -5,6 +5,7 @@ project(${MODULE_NAME} CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 
+include(${CMAKE_CURRENT_SOURCE_DIR}/build/MaterialX/submodules/json/nlohmann_jsonConfig.cmake)
 include(${CMAKE_CURRENT_SOURCE_DIR}/build/MaterialX/installed/cmake/MaterialXConfig.cmake)
 find_package(MaterialX REQUIRED COMPONENTS shadergen)
 

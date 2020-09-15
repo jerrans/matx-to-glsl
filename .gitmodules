@@ -1,3 +1,6 @@
 [submodule "MaterialX"]
 	path = MaterialX
-	url = https://github.com/materialx/MaterialX
+	url = https://github.com/jerrans/MaterialX
+[submodule "submodules/json"]
+	path = submodules/json
+	url = https://github.com/autodesk-forks/json
