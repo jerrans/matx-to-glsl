@@ -13,4 +13,4 @@ cmake .. -DCMAKE_BUILD_TYPE=Debug
 ```
 
 ## Running
-./shaderGen ../MaterialX/resources/Materials/Examples/StandardSurface/standard_surface_plastic.mtlx ./MaterialX
+`./shaderGen ../MaterialX/resources/Materials/Examples/StandardSurface/standard_surface_plastic.mtlx ./MaterialX`
